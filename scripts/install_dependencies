@@ -1,4 +1,4 @@
 #!/bin/bash
 #yum install -y httpd
-sudo -u ubuntu apt-get update
-sudo -u ubuntu apt-get install apache2
+sudo -H -u ubuntu bash -c 'apt-get update'
+sudo -H -u ubuntu bash -c 'apt-get install apache2'
