@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -H -u ubuntu bash -c 'service apache2 start'
+service apache2 start
